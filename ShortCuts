@@ -9,6 +9,8 @@ git add SolvingACabal_Main.py
 git add . 
 git commit -m 
 
+git commit -a -m 
+
 ## Git add remotely code, commits and changes to github
 git remote add origin https://github.com/KU-JonasL/OT2_EHI_V2Protocols_UCPH.git
 git branch -M main
