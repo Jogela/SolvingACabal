@@ -1,0 +1,15 @@
+## Git get repository
+git clone https://github.com/Jogela/SolvingACabal.git/ 
+
+## Save and commit changes
+## Add one file 
+git add SolvingACabal_Main.py
+
+## Add all files for commit
+git add . 
+git commit -m 
+
+## Git add remotely code, commits and changes to github
+git remote add origin https://github.com/KU-JonasL/OT2_EHI_V2Protocols_UCPH.git
+git branch -M main
+git push -u origin main
