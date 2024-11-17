@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Git get repository
 git clone https://github.com/Jogela/SolvingACabal.git/ 
 
@@ -14,4 +15,22 @@ git commit -a -m
 ## Git add remotely code, commits and changes to github
 git remote add origin https://github.com/Jogela/SolvingACabal.git
 git branch -M main
+=======
+## Git get repository
+git clone https://github.com/Jogela/SolvingACabal.git/ 
+
+## Save and commit changes
+## Add one file 
+git add SolvingACabal_Main.py
+
+## Add all files for commit
+git add . 
+git commit -m 
+## One liner
+git commit -a -m 
+
+## Git add remotely code, commits and changes to github
+git remote add origin https://github.com/Jogela/SolvingACabal.git
+git branch -M main
+>>>>>>> bd524a1141bea7f48d4014bb7e7361c877b4cb3c
 git push -u origin main
